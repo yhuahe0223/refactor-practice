@@ -13,3 +13,25 @@ if weather_outside.is_raining:
 else:
     print("Great.")
     return is_stylis
+
+
+
+
+ if weather == "rainy":
+            return "Take an umbrella."
+        elif weather == "sunny":
+            return "Wear sunglasses."
+        elif weather == "cold":
+            return "Wear a jacket."
+        else:
+            return "Weather unknown. Dress comfortably."
+
+
+
+
+if budget < 100:
+            return "Local day trips."
+        elif budget < 500:
+            return "Nearby cities."
+        else:
+            return "International travel!"
